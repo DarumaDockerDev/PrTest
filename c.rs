@@ -1,5 +1,5 @@
 fn main() {
-    let outer_var = 42;
+    let outer_var = 23;
     
     // A regular function can't refer to variables in the enclosing environment
     //fn function(i: i32) -> i32 { i + outer_var }
