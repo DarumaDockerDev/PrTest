@@ -11,7 +11,7 @@ impl Point {
     // Associated functions don't need to be called with an instance.
     // These functions are generally used like constructors.
     fn origin() -> Point {
-        Point { x: 0.0, y: 0.0 }
+        Point { x: 1.0, y: 0.0 }
     }
 
     // Another associated function, taking two arguments:
