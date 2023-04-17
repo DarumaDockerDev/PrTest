@@ -1,6 +1,6 @@
 fn main() {
     fn sum_odd_numbers(up_to: u32) -> u32 {
-        let mut acc = 0;
+        let mut acc = 1;
         for i in 0..up_to {
             // Notice that the return type of this match expression must be u32
             // because of the type of the "addition" variable.
