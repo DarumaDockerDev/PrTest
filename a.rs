@@ -1,7 +1,7 @@
 // Unlike C/C++, there's no restriction on the order of function definitions
 fn main() {
     // We can use this function here, and define it somewhere later
-    fizzbuzz_to(100);
+    fizzbuzz_to(10);
 }
 
 // Function that returns a boolean value
