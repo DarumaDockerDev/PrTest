@@ -2,7 +2,7 @@
 mod my_mod {
     // Items in modules default to private visibility.
     fn private_function() {
-        println!("called `my_mod::private_function()`");
+        println!("called `oh my_mod::private_function()`");
     }
 
     // Use the `pub` modifier to override default visibility.

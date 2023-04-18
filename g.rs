@@ -24,7 +24,7 @@ fn main() {
     let open_box = my::OpenBox { contents: "public information" };
 
     // and their fields can be normally accessed.
-    println!("The open box contains: {}", open_box.contents);
+    println!("HI The open box contains: {}", open_box.contents);
 
     // Public structs with private fields cannot be constructed using field names.
     // Error! `ClosedBox` has private fields

@@ -6,4 +6,5 @@ use crate::deeply::nested::{
 
 fn main() {
     my_first_function();
+    my_first_function();
 }
